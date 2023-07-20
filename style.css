@@ -79,7 +79,7 @@ body {
 }
 
 .container p {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 /* Third Container Styles */
@@ -140,8 +140,8 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    font-size: 30;
 }
 
 .second-container .M_1,
@@ -149,7 +149,8 @@ body {
 .second-container .M_3,
 .second-container .M_4 {
     width: 40%;
-    margin: 4%;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     border-radius: 10px;
     padding: 10px;
